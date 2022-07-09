@@ -8,3 +8,7 @@
         background-color: #00695C;
     }
 }
+
+.animate__fadeInDown{
+    animation-delay: 0ms;
+}
