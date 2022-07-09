@@ -12,3 +12,16 @@
 .animate__fadeInDown{
     animation-delay: 0ms;
 }
+
+@keyframes btnRecursos{
+    0% {
+        background-color: #e0f2f1a4;
+        border-radius: 10px;
+    }
+
+    100% {
+        color: #00695C;
+        background-color: #ffffff;
+        border-radius: 18px;
+    }
+}

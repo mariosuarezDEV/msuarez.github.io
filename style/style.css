@@ -56,6 +56,12 @@ header{
 }
 
 /*contenido*/
+.apartado{ /*titulo*/
+    font-size: 28px;
+    color: #00695C;
+    margin-top: 30px;
+    margin-left: 20px;
+}
 .contenido{ /*contenedor de la tarjeta*/
     margin-top: 0px;
     margin-left: 20px;
@@ -64,12 +70,6 @@ header{
     background-blend-mode: darken;
     padding: 30px 10px;
     border-radius: 10px;
-}
-.apartado{ /*titulo*/
-    font-size: 28px;
-    color: #00695C;
-    margin-top: 30px;
-    margin-left: 20px;
 }
 #sobremi{ /*tarjeta*/
     display: flex;
@@ -96,6 +96,28 @@ header{
 }
 .desc{
     margin-left: 15px;
-    text-align: justify;
+    text-align: left;
 }
-/*falta limpiar la interfaz para telefono*/
+
+.recursos{
+    margin-left: 12%;
+    padding: 3vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+
+}
+.btnRecursos{
+    text-decoration: none;
+    color: white;
+    padding: 4vh;
+    border: 1px solid white;
+}
+.btnRecursos:hover{
+    animation-name: btnRecursos;
+    animation-duration: 800ms;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

@@ -25,8 +25,11 @@
 
     /*sobre mi*/
     #sobremi{ /*tarjeta*/
+        align-items: center;
+        align-content: center;
+        justify-content: center;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .quiensoy{
         background-color: white;
@@ -50,5 +53,27 @@
     .desc{
         margin-top: 10px;
         text-align: center;
+    }
+
+    /*btn Recursos*/
+    .recursos{
+        margin-left: 0%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+    }
+    .btnRecursos{
+        text-decoration: none;
+        color: white;
+        padding: 1vh;
+        border: 1px solid white;
+    }
+    .btnRecursos:hover{
+        animation-name: btnRecursos;
+        animation-duration: 800ms;
+        animation-fill-mode: both;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     }
 }
