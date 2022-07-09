@@ -1,0 +1,25 @@
+@media (max-width:500px) {
+    .menu{
+        display: none;
+        height: 0px;
+        width: 0px;
+    }
+    .logo{
+        margin-top: 20px;
+        color: white;
+        font-size: 6vh;
+    }
+    .per{
+        width: 35vh;
+        border-radius: 50%;
+        border: 10px solid white;
+    }
+    .ocupacion{
+        font-size: 3vh;
+    }
+    .bajar{
+        display: inline-block;
+        width: 7vh;
+        margin-top: 10%;
+    }
+}

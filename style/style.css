@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+header{
+    background-color: #00695C;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.logo{
+    margin-top: 20px;
+    color: white;
+    font-size: 9vh;
+    margin-bottom: 20px;
+}
+.per{
+    width: 42vh;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.ocupacion{
+    font-size: 5vh;
+}
+.bajar{
+    display: none;
+}
+.menu{
+    width: 100%;
+    background-color: #004D40;
+    padding: 18px 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.nav-menu a{
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: white;
+    color: #00695C;
+    margin-left: 2vh;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+.nav-menu a:hover{
+    animation-name: btnMenu;
+    animation-duration: 800ms;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

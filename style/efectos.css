@@ -1,0 +1,10 @@
+@keyframes btnMenu {
+    0% {
+        background-color: #E0F2F1;
+    }
+
+    100% {
+        color: white;
+        background-color: #00695C;
+    }
+}
