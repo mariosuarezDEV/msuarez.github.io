@@ -22,4 +22,33 @@
         width: 7vh;
         margin-top: 10%;
     }
+
+    /*sobre mi*/
+    #sobremi{ /*tarjeta*/
+        display: flex;
+        flex-direction: row;
+    }
+    .quiensoy{
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        border: 1px solid #c2c2c2 ;
+        border-radius: 10px;
+    }
+    .presentacion{
+        border-radius: 50%;
+        width: 30vmin;
+        margin-bottom: 10px;
+        border: 8px solid #00695C;
+    }
+    .desc{
+        margin-top: 10px;
+        text-align: center;
+    }
 }

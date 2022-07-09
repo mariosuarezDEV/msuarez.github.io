@@ -33,7 +33,7 @@ header{
     display: none;
 }
 .menu{
-    width: 100%;
+    width: 98.3%;
     background-color: #004D40;
     padding: 18px 10px;
     margin: 10px;
@@ -56,13 +56,14 @@ header{
 }
 
 /*contenido*/
-
 .contenido{ /*contenedor de la tarjeta*/
     margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
-    background-image: url("img/mexico-gff76507d2_1920.jpg");
+    background: #1f1f1f9a url(/img/mexico-gff76507d2_1920.jpg) 10%;
+    background-blend-mode: darken;
     padding: 30px 10px;
+    border-radius: 10px;
 }
 .apartado{ /*titulo*/
     font-size: 28px;
