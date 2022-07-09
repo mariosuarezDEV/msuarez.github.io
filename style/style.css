@@ -54,3 +54,46 @@ header{
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+/*contenido*/
+
+.contenido{ /*contenedor de la tarjeta*/
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url("img/mexico-gff76507d2_1920.jpg");
+    padding: 30px 10px;
+}
+.apartado{ /*titulo*/
+    font-size: 28px;
+    color: #00695C;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#sobremi{ /*tarjeta*/
+    display: flex;
+    flex-direction: row;
+}
+.quiensoy{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: 1px solid #c2c2c2 ;
+    border-radius: 10px;
+}
+.presentacion{
+    border-radius: 50%;
+    width: 30vmin;
+    margin-bottom: 10px;
+    border: 8px solid #00695C;
+}
+.desc{
+    margin-left: 15px;
+    text-align: justify;
+}
