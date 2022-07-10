@@ -66,12 +66,26 @@ header{
     margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
-    background:#00695db7 url(mexicoPRE.jpg) 10%;
+    background:#00695db7 url(mexicoPRE.jpg) 60%;
     background-blend-mode: darken;
     padding: 30px 10px;
     border-radius: 10px;
 }
+.contenido-general{ /*contenedor de la tarjeta*/
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
 #sobremi{ /*tarjeta*/
+    display: flex;
+    flex-direction: row;
+}
+#sobremi-G{ /*tarjeta*/
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
 }
@@ -88,15 +102,53 @@ header{
     border: 1px solid #c2c2c2 ;
     border-radius: 10px;
 }
+.quiensoy-B{
+    margin-right: 3vh;
+    margin-left: 3vh;
+    background-color: #00695C;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: 1px solid #c2c2c2 ;
+    border-radius: 10px;
+}
 .presentacion{
     border-radius: 50%;
     width: 30vmin;
     margin-bottom: 10px;
     border: 8px solid #00695C;
 }
+.presentacion-B{
+    border-radius: 50%;
+    width: 30vmin;
+    margin-bottom: 10px;
+    border: 8px solid white;
+}
+.profesion-G{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: white;
+}
 .desc{
     margin-left: 15px;
     text-align: left;
+}
+.contacto-G{
+    margin-top: 2vh;
+    background-color: white;
+    padding: 2vh;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #004D40;
+}
+.contacto-G:hover{
+    background-color: rgba(255, 255, 255, 0.74);
 }
 
 .recursos{

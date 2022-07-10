@@ -76,4 +76,25 @@
         animation-fill-mode: both;
         animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     }
+    #sobremi-G{ /*tarjeta*/
+        display: flex;
+        flex-direction: column;
+    }
+    .quiensoy-B{
+        background-color: #00695C;
+        margin-bottom: 3vh;
+        margin-right: 0vh;
+        margin-left: 0vh;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        border: 1px solid #c2c2c2 ;
+        border-radius: 10px;
+    }
 }
