@@ -22,7 +22,6 @@
         width: 7vh;
         margin-top: 10%;
     }
-
     /*sobre mi*/
     #sobremi{ /*tarjeta*/
         align-items: center;
@@ -54,7 +53,6 @@
         margin-top: 10px;
         text-align: center;
     }
-
     /*btn Recursos*/
     .recursos{
         margin-left: 0%;
@@ -114,7 +112,6 @@
         animation-duration: 3s;
         animation-iteration-count: infinite;
         
-
     }
     .contenido-general{
         display: none;
@@ -148,16 +145,13 @@
     .noverM{
         display: none;
     }
-
     /*pie de pagina*/
-.piedepagina{
-    flex-direction: column;
-}
-
-.piedepagina img{
-    margin-top: 2vh;
-}
-
+    .piedepagina{
+        flex-direction: column;
+    }
+    .piedepagina img{
+        margin-top: 2vh;
+    }
 }
 
 
