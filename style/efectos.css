@@ -25,3 +25,17 @@
         border-radius: 18px;
     }
 }
+
+@keyframes btnInvitacion {
+    0%{
+        background-color: #00695d;
+    }
+    50%{
+        color: #00695C;
+        background-color: white;
+    }
+    100%{
+        color: white;
+        background-color: #00695d;
+    }
+}

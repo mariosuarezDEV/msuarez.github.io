@@ -80,13 +80,18 @@
         display: flex;
         flex-direction: column;
     }
+    #sobremi-GM{
+        display: flex;
+        flex-direction: column;
+    }
     .quiensoy-B{
         background-color: #00695C;
         margin-bottom: 3vh;
         margin-right: 0vh;
         margin-left: 0vh;
         color: white;
-        padding: 10px;
+        padding: 20px;
+        width: 28vh;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -97,4 +102,62 @@
         border: 1px solid #c2c2c2 ;
         border-radius: 10px;
     }
+    .btn-Invitacion{
+        background-color: #00695C;
+        color: white;
+        text-align: center;
+        padding: 3vh;
+        text-decoration: none;
+        border-radius: 6PX;
+        border: 1px solid #00695C;
+        animation-name: btnInvitacion;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        
+
+    }
+    .contenido-general{
+        display: none;
+    }
+    .contenido-generalM{ /*contenedor de la tarjeta */
+        display: block;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 30px 10px;
+        border-radius: 10px;
+    }
+    .lenguaje{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .tarjeta-Lenguaje img{
+        width: 10vh;
+    }
+    .lenguaje-nombre{
+        margin-top: 2vh;
+        color: white;
+        font-size: 16px;
+    }
+    .nover{
+        display: flex;
+    }
+    .noverM{
+        display: none;
+    }
+
+    /*pie de pagina*/
+.piedepagina{
+    flex-direction: column;
 }
+
+.piedepagina img{
+    margin-top: 2vh;
+}
+
+}
+
+

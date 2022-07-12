@@ -13,7 +13,6 @@ header{
     align-items: center;
     align-content: center;
     flex-direction: column;
-
 }
 .logo{
     margin-top: 20px;
@@ -71,7 +70,8 @@ header{
     padding: 30px 10px;
     border-radius: 10px;
 }
-.contenido-general{ /*contenedor de la tarjeta --comantario para subir*/
+.contenido-general{ /*contenedor de la tarjeta */
+    display: block;
     margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
@@ -107,7 +107,8 @@ header{
     margin-left: 3vh;
     background-color: #00695C;
     color: white;
-    padding: 10px;
+    padding: 20px;
+    width: 35vh;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -138,6 +139,12 @@ header{
 .desc{
     margin-left: 15px;
     text-align: left;
+    line-height: 21px;
+}
+.desc-card{
+    margin-left: 15px;
+    text-align: center;
+    line-height: 21px;
 }
 .contacto-G{
     margin-top: 2vh;
@@ -173,3 +180,61 @@ header{
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.contenido-generalM{
+    display: none;
+}
+
+/*Tecnologias*/
+
+.contenedor-tec{
+    border-radius: 10px;
+    background:#00000085 url(technology-g10347b4a0_1920.jpg) 90%;
+    background-blend-mode: darken;
+    padding: 3vh;
+}
+.lenguaje{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.tarjeta-Lenguaje{
+    margin-top: 3vh;
+    display: flex;
+    padding: 3vh;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.tarjeta-Lenguaje img{
+    width: 20vh;
+}
+.lenguaje-nombre{
+    margin-top: 2vh;
+    color: white;
+    font-size: 25px;
+}
+.nover{
+    display: none;
+}
+
+/*pie de pagina*/
+.piedepagina{
+    background-color: #004D40;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.piedepagina img{
+    width: 4vh;
+    margin-left: 3vh;
+}
+
